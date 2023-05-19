@@ -1,1 +1,5 @@
-# toronto_demogrpahics_powerbi
+Using 2016 cenus data found on Toronto Open Data (the most recent available), an interactive PowerBI report was created to outline key characteristics for each of Toronto's 140 neighbourhoods (the historic neighbourhood model), including average income, population density, commute mode and time, and percentage of households that own their home, have children, and are Canadian citizens (many Toronto residents are unable to vote in municipal elections, which may impact representation for particular neighbourhoods).
+
+For the commute and social factors views, report users can select the fields that would show on the y-axis for the scatter plots on each page. for the Commute view, the fields would include Commute Mode (the higer the score, the more active the commute to work), Commute Duration, and Commute Time (the lower the score, the earlier commuters leave for work). For Social Factors, users can choose Average Income, % of households that own their homes, % population change from 2011-2016, and Commute Mode Score.
+
+A dataset from Toronto Open Data was cleaned using Microsoft Excel. Some fields, such as Commute Mode Score, were created in order to provide a single score aggregating counts of commuters using various mode options.
